@@ -3,40 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Choose Your Destination</title>
+    <title>Jackson Insurance Agency</title>
     <style>
         body {
             text-align: center; /* Centers all content */
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Light background for better contrast */
+            margin: 0; /* Remove default margin */
+            padding: 20px; /* Add some padding */
+        }
+        header {
+            background-color: #005EB8; /* Header color (similar to United Healthcare) */
+            padding: 20px; /* Space around the logo */
+            border-radius: 8px; /* Rounded corners */
+            color: white; /* Text color in header */
         }
         img {
-            width: 500px; /* Adjust logo size (change from 200px to 500px or larger) */
+            width: 300px; /* Adjust logo size */
             height: auto;
-            margin-bottom: 60px; /* Adds space between the logo and the buttons */
+            margin-bottom: 10px; /* Space between logo and agency name */
+        }
+        h1 {
+            font-size: 24px; /* Size for agency name */
+            margin: 10px 0; /* Margin for heading */
+        }
+        h2 {
+            font-size: 20px; /* Subheading size */
+            margin: 10px 0; /* Margin for subheading */
         }
         button {
             display: block;
-            width: 300px;
-            padding: 10px;
-            margin: 10px auto;
-            font-size: 16px;
-            cursor: pointer;
+            width: 80%; /* Make buttons responsive */
+            max-width: 300px; /* Maximum button width */
+            padding: 15px; /* Larger padding for easier clicking */
+            margin: 15px auto; /* Center and space buttons */
+            font-size: 18px; /* Larger font for readability */
+            color: white; /* Text color */
+            background-color: #007BFF; /* Button color */
+            border: none; /* Remove default border */
+            border-radius: 5px; /* Rounded corners for buttons */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s; /* Smooth background transition */
+        }
+        button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
         }
     </style>
 </head>
 <body>
 
-    <!-- Business Logo -->
-    <img src="https://raw.githubusercontent.com/kljinsure/Jackson-Agency-Landing-Page/be4e7a5b17185b9ba508fbbd1e67855d9cf89bf4/jackson%20insurance%20agency%20logo.png" alt="Business Logo">
-    
-    <!-- Heading -->
-    <h1>Select a Website</h1>
-    
-    <!-- Button for Jackson Insures (Medicare Insurance Page) -->
-    <button onclick="window.location.href='http://www.jacksoninsures.com';">Medicare Insurance Page</button>
-    
-    <!-- Button for HealthSherpa (Marketplace Insurance Page) -->
-    <button onclick="window.location.href='https://www.healthsherpa.com/?_agent_id=kayla-jackson';">Marketplace Insurance Page</button>
-
-</body>
-</html>
+    <header>
+        <!-- Business Logo -->
+        <img src="https://raw.githubusercontent.com/kljinsure/Jackson-Agency-Landing-Page/be4e7a5b17185b9ba508fbbd1e67855d9cf89bf4/jackson%20insurance%20agency%20logo.png" alt="Business Logo">
+        <h1>Jackson Insurance Agency</h1>
+    </header>
